@@ -1,6 +1,6 @@
 # spacemesh-api
 
-spacemesh-api helm exposes public api of
+spacemesh-api exposes public api of
 [go-spacemesh](https://github.com/spacemeshos/go-spacemesh). It runs several
 replicas of `go-spacemesh`, waiting for full sync and then put them to work.
 
@@ -51,10 +51,9 @@ ingress:
   jsonRpcDomain: api-json-100.spacemesh.io
 config: |
   {
-    "api": {
-    [...]
+    "api": { ...
 peers: |
-  {"Key":...
+  {"Key": ...
 ```
 
 The following table lists main configurable parameters of the spacemesh-api

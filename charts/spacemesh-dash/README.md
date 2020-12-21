@@ -1,6 +1,6 @@
 # spacemesh-dash
 
-spacemesh-dash helm runs Spacemesh Dashboard back end. It uses mongoDB service
+spacemesh-dash runs Spacemesh Dashboard back end. It uses mongoDB service
 from spacemesh-explorer.
 
 ## Prerequisites

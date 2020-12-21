@@ -1,6 +1,6 @@
 # spacemesh-explorer
 
-spacemesh-explorer helm runs Spacemesh Explorer. It consists of two parts:
+spacemesh-explorer runs Spacemesh Explorer. It consists of two parts:
 
 - collector - parse blockchain data and save it to mongoDB
 - api - endpoint for front end
